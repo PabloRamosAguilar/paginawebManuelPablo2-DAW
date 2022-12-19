@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(to bottom, lightblue,lightskyblue,wheat);
+}
+
+.form-floating>.form-control{
+  padding: 1rem 1rem;
+}
+
+.form-floating>.form-control{
+    margin-top:25px;
+  height: calc(2.2rem + 2px);
+  line-height: 1;
+}
+
+.form-floating>label {
+  padding: 1.2rem 1rem;
+}
+
+  
