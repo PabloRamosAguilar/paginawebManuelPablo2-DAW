@@ -1,3 +1,5 @@
+const CALENDARIOJSON = "https://raw.githubusercontent.com/PabloRamosAguilar/paginawebManuelPablo2-DAW/main/calendario.JSON";
+
 const fechaescribir = document.getElementById("fechaHoy");
 let fecha = new Date();
 let fechahoy = fecha.getDate() + '/' + (fecha.getMonth() + 1) + '/' + fecha.getFullYear();
@@ -31,7 +33,7 @@ function hide() {
     document.getElementById("L34").style.visibility = "hidden";
 }
 
-xmlhttp.open("GET", "Calendario.JSON", true);
+xmlhttp.open("GET", CALENDARIOJSON, true);
 xmlhttp.send();
 
 
